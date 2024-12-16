@@ -1,0 +1,70 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+  }
+
+  #game-container {
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 20px auto;
+    background-color: #eef2ff;
+    position: relative;
+  }
+  
+  #basket {
+    grid-row: 10;
+    grid-column: 5;
+    background-color: brown;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+  }
+  
+  #fruit {
+    grid-row: 1;
+    grid-column: 5;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+  }
+  
+  #info {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+    width: 300px;
+  }
+  
+  #score-display, #lives-display {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #game-over {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #d72638;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005f8c;
+  }

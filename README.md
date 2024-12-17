@@ -1,4 +1,7 @@
 # Catching-Fruit-Game
+![image](https://github.com/user-attachments/assets/ac1243f9-6d2b-4e80-8d25-310252585a76)
+
+
 # Fruit Catching Game 
 
 ## Fruit-Catching-Game is a game where the player catches falling fruit using a basket that the player controls. With a limited number of lives, the player must move quickly to try to get the highest score posssible. This game is beginner-friendly and was chosen to help the developer understand basic web development concepts like HTML, CSS, and JavaScript.
